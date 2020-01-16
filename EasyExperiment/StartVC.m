@@ -6,18 +6,20 @@
 //  Copyright © 2020 hellohezhili. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "StartVC.h"
 
-@interface ViewController ()
+@interface StartVC ()
 
 @end
 
-@implementation ViewController
+@implementation StartVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)startAction:(UIButton *)sender {
+}
 
 @end
