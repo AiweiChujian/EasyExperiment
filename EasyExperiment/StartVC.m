@@ -7,6 +7,11 @@
 //
 
 #import "StartVC.h"
+//#ifdef HIDETARGET
+
+//#else
+#import "EasyExperiment-Swift.h"
+//#endif
 
 @interface StartVC ()
 
@@ -16,10 +21,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+   
+
 }
 
 - (IBAction)startAction:(UIButton *)sender {
+     [[TestClass new]myPrintWithString:@"hahaha"];
 }
 
 @end
