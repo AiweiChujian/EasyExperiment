@@ -7,7 +7,6 @@
 //
 
 #import "OtherVC.h"
-#import "StartVC+category.h"
 
 @interface OtherVC ()
 
