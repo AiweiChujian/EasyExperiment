@@ -7,13 +7,11 @@
 //
 
 #import "StartVC.h"
-//#ifdef HIDETARGET
-
-//#else
 #import "EasyExperiment-Swift.h"
-//#endif
+
 
 @interface StartVC ()
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 
@@ -21,12 +19,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
-
 }
 
 - (IBAction)startAction:(UIButton *)sender {
      [[TestClass new]myPrintWithString:@"hahaha"];
 }
+
+- (void)injected
+{
+    
+}
+
 
 @end

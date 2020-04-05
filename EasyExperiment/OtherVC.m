@@ -7,6 +7,7 @@
 //
 
 #import "OtherVC.h"
+#import "StartVC+category.h"
 
 @interface OtherVC ()
 
@@ -16,8 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
 }
+
 
 /*
 #pragma mark - Navigation
