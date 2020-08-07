@@ -1,4 +1,0 @@
-Documentation set was installed to Xcode!
-
-Path: /Users/aiwei/Library/Developer/Shared/Documentation/DocSets/com.hellohezhili.easyexperiment.EasyExperiment.docset
-Time: 2020-04-05 13:38:09 +0000

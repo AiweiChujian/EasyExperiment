@@ -2,7 +2,7 @@ source 'https://github.com/Artsy/Specs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 inhibit_all_warnings!
-use_frameworks!
+# use_frameworks!
 platform :ios,'11.0'
 
 # pod快速更新命令
@@ -29,12 +29,14 @@ def podsGeneral
     pod 'GVUserDefaults'
     pod 'SAMKeychain'
     #调试
-    pod 'FLEX', :configurations => ['Debug']
+    pod 'YKWoodpecker', :configurations => ['Debug']
+#    pod 'FLEX', :configurations => ['Debug']
     pod 'MLeaksFinder', :configurations => ['Debug']
     #APP管理
     pod 'CocoaLumberjack'
     pod 'AYCheckVersion'
     pod 'Appirater'
+    pod "CTMediator"
 end
 
 def podsTest

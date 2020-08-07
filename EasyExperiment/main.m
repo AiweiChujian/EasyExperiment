@@ -8,12 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+#import "EEApplication.h"
+
 
 int main(int argc, char * argv[]) {
     NSString * appDelegateClassName;
+    NSString * applicationCalssName;
     @autoreleasepool {
         // Setup code that might create autoreleased objects goes here.
         appDelegateClassName = NSStringFromClass([AppDelegate class]);
+        applicationCalssName = NSStringFromClass([EEApplication class]);
     }
-    return UIApplicationMain(argc, argv, nil, appDelegateClassName);
+    return UIApplicationMain(argc, argv, applicationCalssName, appDelegateClassName);
 }

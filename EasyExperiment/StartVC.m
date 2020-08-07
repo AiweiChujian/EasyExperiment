@@ -22,7 +22,7 @@
 }
 
 - (IBAction)startAction:(UIButton *)sender {
-     [[TestClass new]myPrintWithString:@"hahaha"];
+     
 }
 
 - (void)injected

@@ -8,11 +8,6 @@
 
 #ifndef PrefixHeaders_h
 #define PrefixHeaders_h
-#import <AFNetworking/AFNetworking.h>
 
-#ifdef DEBUG
-#import <FLEX/FLEX.h>
-
-#endif
-
+#import <objc/runtime.h>
 #endif /* PrefixHeaders_h */

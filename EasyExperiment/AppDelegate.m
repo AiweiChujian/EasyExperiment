@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import <AVFoundation/AVFoundation.h>
+#import "EEApplication.h"
+
 
 @interface AppDelegate ()
 
@@ -15,14 +18,12 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(EEApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     #ifdef DEBUG
         [[NSBundle bundleWithPath:@"/Applications/InjectionIII.app/Contents/Resources/iOSInjection.bundle"] load];
     #endif
+    
     return YES;
 }
-
-
-
 
 @end

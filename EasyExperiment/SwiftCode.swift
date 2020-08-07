@@ -7,9 +7,6 @@
 //
 
 import Foundation
+import UIKit
 
-class TestClass: NSObject {
-    @objc func myPrint (string :String) -> Void {
-        print("\(string) ...")
-    }
-}
+
