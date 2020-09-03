@@ -14,10 +14,11 @@ end
 
 
 def podsGeneral
-    pod 'MBProgressHUD'
     pod 'IQKeyboardManager'
-    pod 'Masonry'
     pod 'FDFullscreenPopGesture'
+    pod 'MBProgressHUD'
+  
+    pod 'Masonry'
     pod 'KMNavigationBarTransition'
     pod 'ZYCornerRadius'
     pod 'ReactiveObjC'
@@ -28,15 +29,17 @@ def podsGeneral
     pod 'YYCache'
     pod 'GVUserDefaults'
     pod 'SAMKeychain'
-    #调试
-    pod 'YKWoodpecker', :configurations => ['Debug']
-#    pod 'FLEX', :configurations => ['Debug']
-    pod 'MLeaksFinder', :configurations => ['Debug']
+    
+   
     #APP管理
     pod 'CocoaLumberjack'
     pod 'AYCheckVersion'
     pod 'Appirater'
-    pod "CTMediator"
+
+    #调试
+    pod 'YKWoodpecker', :configurations => ['Debug']
+    #    pod 'FLEX', :configurations => ['Debug']
+    pod 'MLeaksFinder', :configurations => ['Debug']
 end
 
 def podsTest

@@ -33,6 +33,7 @@
 		DB52185A23D04707007FE70E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB52185823D04707007FE70E /* LaunchScreen.storyboard */; };
 		DB52185D23D04707007FE70E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB52185C23D04707007FE70E /* main.m */; };
 		DB52186723D04707007FE70E /* EasyExperimentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB52186623D04707007FE70E /* EasyExperimentTests.m */; };
+		DB9DC7E424ED1EF3009FDD30 /* OtherSubVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DC7E324ED1EF3009FDD30 /* OtherSubVC.m */; };
 		DBA6B679244D6EF000D0F74F /* EEApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA6B678244D6EF000D0F74F /* EEApplication.m */; };
 		DBAC2828242B295E0023F987 /* SwiftCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAC2827242B295E0023F987 /* SwiftCode.swift */; };
 /* End PBXBuildFile section */
@@ -66,6 +67,8 @@
 		DB52186223D04707007FE70E /* EasyExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyExperimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB52186623D04707007FE70E /* EasyExperimentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyExperimentTests.m; sourceTree = "<group>"; };
 		DB52186823D04707007FE70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9DC7E224ED1EF3009FDD30 /* OtherSubVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherSubVC.h; sourceTree = "<group>"; };
+		DB9DC7E324ED1EF3009FDD30 /* OtherSubVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherSubVC.m; sourceTree = "<group>"; };
 		DBA6B677244D6EF000D0F74F /* EEApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEApplication.h; sourceTree = "<group>"; };
 		DBA6B678244D6EF000D0F74F /* EEApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EEApplication.m; sourceTree = "<group>"; };
 		DBAC2827242B295E0023F987 /* SwiftCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCode.swift; sourceTree = "<group>"; };
@@ -155,6 +158,8 @@
 				DB52185C23D04707007FE70E /* main.m */,
 				DBAC2827242B295E0023F987 /* SwiftCode.swift */,
 				DB20A46824378319005613FD /* PrefixHeaders.h */,
+				DB9DC7E224ED1EF3009FDD30 /* OtherSubVC.h */,
+				DB9DC7E324ED1EF3009FDD30 /* OtherSubVC.m */,
 			);
 			path = EasyExperiment;
 			sourceTree = "<group>";
@@ -392,6 +397,7 @@
 				DBA6B679244D6EF000D0F74F /* EEApplication.m in Sources */,
 				DB52185223D04706007FE70E /* StartVC.m in Sources */,
 				DB52184C23D04706007FE70E /* AppDelegate.m in Sources */,
+				DB9DC7E424ED1EF3009FDD30 /* OtherSubVC.m in Sources */,
 				DB1EE41F246A3F870069F160 /* OtherVC.m in Sources */,
 				DBAC2828242B295E0023F987 /* SwiftCode.swift in Sources */,
 				DB52185D23D04707007FE70E /* main.m in Sources */,
